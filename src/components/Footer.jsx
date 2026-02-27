@@ -3,10 +3,10 @@ import { Mail, Linkedin, Github } from 'lucide-react'
 export function Footer() {
     return (
         <footer id="contato" className="py-12 px-6 bg-slate-950 text-slate-400 border-t border-slate-800 text-center">
-            <div className="max-w-4xl mx-atuo flex-col items-center">
+            <div className="max-w-4xl mx-auto flex-col items-center">
 
                 <h2 className="text-3xl font-bold text-white mb-6">Vamos conversar?</h2>
-                <p className="mb-8">
+                <p className="mb-8 text-lg">
                     Estou aberto a novas oportunidades de estágio e projetos interessantes.
                     Sinta-se à vontade para entrar em contato!
                 </p>
