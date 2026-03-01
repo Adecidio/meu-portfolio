@@ -6,9 +6,9 @@ export function Projects() {
             id: 1,
             title: "TradeJournal",
             description: "Uma plataforma completa para traders registrarem, analisarem e otimizarem suas operações no mercado financeiro. Desenvolvida do zero para resolver um problema real de gestão de risco e histórico de trades.",
-            techs: ["Python", "Flask", "Bootstrap", "PostgreSQL", "Git/GitHub"],
-            githubUrl: "#",
-            liveUrl: "#",
+            techs: ["Python", "Flask", "SQLAlchemy (ORM)", "Werkzeug", "Pandas", "NumPy", "Jinja2", "Bootstrap", "Chart.js", "PostgreSQL", "Git/GitHub", "Render Cloud", "Gunicorn"],
+            githubUrl: "https://github.com/Adecidio/tradejournal-lite",
+            liveUrl: "https://tradejournal-lite.onrender.com/",
             image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop"
         },
         {
@@ -61,11 +61,11 @@ export function Projects() {
 
                                 {/* Botões de Link */}
                                 <div className="flex gap-4">
-                                    <a href={projects.githubUrl} className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                                    <a href={projects.githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
                                         <Github size={20} />
                                         <span>Código</span>
                                     </a>
-                                    <a href={projects.liveUrl} className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors">
+                                    <a href={projects.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors">
                                         <ExternalLink size={20} />
                                         <span>Acessar</span>
                                     </a>
