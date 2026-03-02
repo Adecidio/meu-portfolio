@@ -49,7 +49,7 @@ http://localhost:5173
 
 Sinta-se à vontade para me mandar uma mensagem!
 
-* **[LinkedIn:](https://linkedin.com/adecidio)**
+* **[LinkedIn:](https://linkedin.com/Adecidio)**
 * **[E-mail:](mailto:adecidio-2011-@hotmail.com)**
 
 *Desenvolvido com dedicação por Adecídio Santiago. ☕*
