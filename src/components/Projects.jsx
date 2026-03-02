@@ -9,7 +9,7 @@ export function Projects() {
             techs: ["Python", "Flask", "SQLAlchemy (ORM)", "Werkzeug", "Pandas", "NumPy", "Jinja2", "Bootstrap", "Chart.js", "PostgreSQL", "Git/GitHub", "Render Cloud", "Gunicorn"],
             githubUrl: "https://github.com/Adecidio/tradejournal-lite",
             liveUrl: "https://tradejournal-lite.onrender.com/",
-            image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop"
+            image: "https://meu-portfolio-one-eta.vercel.app/preview-tradejournal.png"
         },
         {
             id: 2,
