@@ -1,16 +1,55 @@
-# React + Vite
+# 🚀 Meu Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-Vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para apresentar minha trajetória como estudante de Análise e Desenvolvimento de Sistemas, minhas habilidades e os projetos que venho construindo.
 
-Currently, two official plugins are available:
+🔗 **[Acessar o Portfólio Online](https://meu-portfolio-one-eta.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tecnologias Utilizadas
 
-## React Compiler
+Este projeto foi construído do zero utilizando as seguintes ferramentas modernas do ecossitema Front-end:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **[React](https://react.dev/)** - Biblioteca JavaScript para construção da interface de usuário.
+* **[Vite](https:vitejs.dev/)** - Ferramenta de build super rápida.
+* **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utilitário para estilização e responsividade.
+* **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones bonitos e consistentes.
 
-## Expanding the ESLint configuration
+## 🎯 Destaques do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Design Responsivo:** O layout se adapta perfeitamente a celulares, tablets e desktops (Mobile First).
+* **Componentização:** Arquitetura limpa dividida em componentes (`Hero`, `About`, `Skills`, `Projects`, `Footer`).
+* **Navegação Suave (Smooth Scroll):** Transições fluidas ao clicar nos links do menu.
+* **Otimização (SEO/Open Graph):** Metadados configurados para links bonitos ao compartilhar em redes sociais.
+* **Hospedagem Contínua:** Deploy automatizado configurado na Vercel.
+
+## 🛠️ Como rodar o projeto na sua máquina
+
+Se você quiser baixar este código e rodar no seu computador, siga os passos abaixo:
+
+1. Clone este repositório:
+```bash
+git clone [https://github.com/Adecidio/meu-portfolio.git](https://github.com/Adecidio/meu-portfolio.git)
+```
+2. Entre na pasta do proejto:
+```bash
+cd meu-portfolio
+```
+3. Instale as dependências:
+```bash
+npm install
+```
+4. Rode o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+5. Acesse o link no seu navegador:
+```bash
+http://localhost:5173
+```
+## 📬 Contato
+
+Sinta-se à vontade para me mandar uma mensagem!
+
+* **[LinkedIn:](https://linkedin.com/adecidio)**
+* **[E-mail:](adecidio-2011-@hotmail.com)**
+
+* *Desenvolvido com dedicação por Adecídio Santiago. ☕*
