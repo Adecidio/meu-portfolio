@@ -34,7 +34,7 @@ export function Footer() {
                         <span>LinkedIn</span>
                     </a>
 
-                    <a href="https://github.com/Adecidio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 rounded-full bg-slate-900 border border-slate-800 hover:bg-slate-800 hover:text-white transition-colors group">
+                    <a href="https://github.com/Adecidio/meu-portfolio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 rounded-full bg-slate-900 border border-slate-800 hover:bg-slate-800 hover:text-white transition-colors group">
                         <Github size={20} className="group-hover:text-gray-400 transition-colors" />
                         <span>GitHub</span>
                     </a>
