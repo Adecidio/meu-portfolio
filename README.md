@@ -50,6 +50,6 @@ http://localhost:5173
 Sinta-se à vontade para me mandar uma mensagem!
 
 * **[LinkedIn:](https://linkedin.com/adecidio)**
-* **[E-mail:](adecidio-2011-@hotmail.com)**
+* **[E-mail:](mailto:adecidio-2011-@hotmail.com)**
 
-* *Desenvolvido com dedicação por Adecídio Santiago. ☕*
+# *Desenvolvido com dedicação por Adecídio Santiago. ☕*
