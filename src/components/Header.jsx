@@ -6,6 +6,9 @@ export function Header() {
             <h2 className="text-2xl font-bold">Adecídio Santiago 👨‍💻</h2>
 
             <nav className="flex gap-4 md:gap-6 mt-4 md:mt-0">
+                <a href="#sobre" className="text-slate-300  hover:text-blue-400 transition-colors font-medium">
+                    Sobre mim
+                </a>
                 <a href="#projetos" className="text-slate-300 hover:text-blue-400 transition-colors font-medium">
                     Projetos
                 </a>

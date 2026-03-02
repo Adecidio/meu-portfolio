@@ -27,11 +27,11 @@ export function Hero() {
                 oportunidade de estágio para transformar teoria em prática e agregar valor à equipe.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#projetos" className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-500 transition-colors shadow-lg shadow-blue-500/30">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                <a href="#projetos" className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105">
                     Ver Meus Projetos
                 </a>
-                <a href="#contato" className="px-8 py-3 bg-slate-800 text-blue-400 border border-blue-400/30 font-semibold rounded-full hover:bg-slate-700 transition-colors">
+                <a href="#contato" className="flex items-center justify-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-8 py-4 rounded-full font-semibold transition-all border-slate-600 hover:border-slate-500">
                     Falar Comigo
                 </a>
             </div>
