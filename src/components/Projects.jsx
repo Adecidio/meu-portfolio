@@ -1,4 +1,4 @@
-import { Github, ExternalLink } from 'lucide-react'
+import { Github, ExternalLink, Clock } from 'lucide-react'
 
 export function Projects() {
     const projectsData = [
@@ -13,12 +13,13 @@ export function Projects() {
         },
         {
             id: 2,
-            title: "Meu Segundo Projeto",
-            description: "Breve descrição do projeto",
-            techs: ["HTML", "CSS", "JavaScript"],
+            title: "Novidade a caminho... 🚀",
+            description: "Um portfólio nunca está 100% finalizado. Estou sempre estudando e criando novas soluções. Atualmente, estou arquitetando meu próximo projeto focado em aprofundar meus conhecimentos no ecossistema Full-Stack.",
+            techs: ["Em Desenvolvimento", "Novos Desafios"],
             githubUrl: "#",
             liveUrl: "#",
-            image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=800&auto=format&fit=crop",
+            inProgress: true
         }
     ]
 
@@ -43,7 +44,15 @@ export function Projects() {
                                     className="w-full h-full object-cover group-hover:scalte-105 transition-transform duration-500" 
                                 />
                                 <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors"></div>
-                            </div>
+
+                                {/* Selo de "Em Breve" */}
+                                {projects.inProgress && (
+                                    <div className="absolute top-4 right-4 bg-blue-600 text-white text-xl font-bold px-1 rounded-full flex items-center gap-1 shadow-lg">
+                                        <Clock size={20} />
+                                        Em Breve
+                                    </div>
+                                )}
+                            </div>  
                             
                             {/* Conteúdo do Card */}
                             <div className="p-8">
@@ -60,15 +69,25 @@ export function Projects() {
                                 </div>
 
                                 {/* Botões de Link */}
-                                <div className="flex gap-4">
-                                    <a href={projects.githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
-                                        <Github size={20} />
-                                        <span>Código</span>
-                                    </a>
-                                    <a href={projects.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors">
-                                        <ExternalLink size={20} />
-                                        <span>Acessar</span>
-                                    </a>
+                                <div className="flex gap-4 mt-auto">
+                                    {!projects.inProgress ? (
+                                        <>
+                                            <a href={projects.githubUrl} className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors">
+                                                <Github size={20} />
+                                                <span>Código</span>
+                                            </a>
+                                            <a href={projects.liveUrl} className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors">
+                                                <ExternalLink size={20} />
+                                                <span>Acessar</span>
+
+                                            </a>
+                                        </>
+                                    ) : (
+                                        <span>
+                                            <Clock size={20} />
+                                            <span>Trabalhando nisso...</span>
+                                        </span>
+                                    )}
                                 </div>
                             </div>
                         </div>
